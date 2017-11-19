@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+".\output\main.o"
+".\output\stm32f10x_it.o"
+".\output\core_cm3.o"
+".\output\system_stm32f10x.o"
+".\output\startup_stm32f10x_hd.o"
+".\output\stm32f10x_gpio.o"
+".\output\stm32f10x_rcc.o"
+".\output\misc.o"
+".\output\stm32f10x_i2c.o"
+".\output\stm32f10x_sdio.o"
+".\output\stm32f10x_tim.o"
+".\output\stm32f10x_usart.o"
+".\output\delay.o"
+".\output\usart.o"
+".\output\i2c.o"
+".\output\control.o"
+".\output\filter.o"
+".\output\mpu6050.o"
+".\output\inv_mpu.o"
+".\output\inv_mpu_dmp_motion_driver.o"
+".\output\sys.o"
+".\output\timer.o"
+--strict --scatter ".\output\工程模板.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\output\工程模板.map" -o .\output\工程模板.axf
