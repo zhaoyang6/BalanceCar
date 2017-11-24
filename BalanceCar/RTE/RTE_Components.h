@@ -3,8 +3,8 @@
  * Auto generated Run-Time-Environment Component Configuration File
  *      *** Do not modify ! ***
  *
- * Project: 'Template' 
- * Target:  'Target 1' 
+ * Project: 'BalanceCar' 
+ * Target:  'BalanceCar' 
  */
 
 #ifndef RTE_COMPONENTS_H
