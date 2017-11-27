@@ -12,6 +12,7 @@
 ".\output\stm32f10x_i2c.o"
 ".\output\stm32f10x_usart.o"
 ".\output\stm32f10x_tim.o"
+".\output\stm32f10x_exti.o"
 ".\output\bsp_systick.o"
 ".\output\bsp_usart1.o"
 ".\output\bsp_encoder.o"

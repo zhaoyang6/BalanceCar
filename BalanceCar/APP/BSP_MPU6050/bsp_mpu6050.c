@@ -1,6 +1,6 @@
 #include "bsp_mpu6050.h"
-//#include "bsp_i2c.h"
-//#include "bsp_usart1.h"
+#include "bsp_i2c.h"
+#include "bsp_usart1.h"
 #define PRINT_ACCEL     (0x01)
 #define PRINT_GYRO      (0x02)
 #define PRINT_QUAT      (0x04)

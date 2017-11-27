@@ -25,25 +25,26 @@ void Duty_2ms(void)
 { 
 	u8 T=2;
 //	Time_Start();
-//		if (Received_Finish_Flag)
-//	   	{
-//			Data_To_String();
-//			Protocol();
-//		}
-//		/*通过状态控制小车*/
-//		CarStateOut(T);
+		if (Received_Finish_Flag)
+	   	{
+			Data_To_String();
+			Protocol();
+		}
+		/*通过状态控制小车*/
+		CarStateOut(T);
 //  Time_End();
 }
 void Duty_5ms(void)
 {
 	u8 T=5;
-	  Read_DMP();
-		printf("Yaw=%.2f Pitch=%.2f Roll=%.2f T=%d\r\n",Yaw,Pitch,Roll,T);
+
+	
 }
 void Duty_10ms(void)
 { 
 	u8 T=10;
-	
+	Read_DMP();
+	printf("Yaw=%.2f Pitch=%.2f Roll=%.2f T=%d\r\n",Yaw,Pitch,Roll,T);
 }
 
 void Duty_20ms(void)

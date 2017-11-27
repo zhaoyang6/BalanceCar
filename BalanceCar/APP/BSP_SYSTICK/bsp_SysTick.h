@@ -4,4 +4,5 @@
 void SysTick_Init(void);
 void delay_us(u32 i);
 void delay_ms(u32 i);
+void delay_handler(void);
 #endif

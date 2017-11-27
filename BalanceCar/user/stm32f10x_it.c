@@ -24,6 +24,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f10x_it.h"
 #include "scheduler.h"
+#include "bsp_SysTick.h"
 /** @addtogroup STM32F10x_StdPeriph_Template
   * @{
   */
@@ -38,7 +39,6 @@
 /******************************************************************************/
 /*            Cortex-M3 Processor Exceptions Handlers                         */
 /******************************************************************************/
-
 /**
   * @brief  This function handles NMI exception.
   * @param  None
